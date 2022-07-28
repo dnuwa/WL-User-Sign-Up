@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sport Social App </title>
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <!--   CSS  -->
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="flags/build/css/intlTelInput.css">
+    <link rel="stylesheet" href="flags/build/css/demo.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+    <!--   JS   -->
+    <script src="./jquery/3.5.1/jquery.min.js"></script>
+    <script src="./popper/popper.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="css/alertify.min.css" />
+    <script src="js/alertify.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper gray-wrapper">
+        <div class="container full-container index-page">
+            <div class="header">
+                <div id="gn-menu" class="gn-menu-main">
+                    <div class="row nmarg">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <li class="com-name login-logo"><span class="com-l com-l-index"><img
+                                        src="https://img.favpng.com/9/19/12/logo-company-business-graphic-designer-png-favpng-HNr9r24fhqCWzwS2YNEsTkaCA.jpg" class="com-logo"></span></li>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content c-home">
+                <div class="intro">
+
+                    <div class="row nmarg">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 npad">
+                            <div class="d-flex flex-column border">
+                                <div class="form-area">
+                                    <h2>(Business Name)</h2>
+                                    <h3 class="text-success x-bold-text"> Login </h3>
+                                    <form class="bg-white rounded">
+                                        <div class="form-header rounded-top header-img-rounded">
+                                            <img src="images/img34.jpg" class="header-img full-span">
+                                        </div>
+                                        <div class="form-main-content">
+                                            <div id="message"> </div>
+                                
+                                            <h4> Login & Password </h4>
+                                            <div class="form-group">
+                                                <input type="email" value="" name="email" class="form-control"
+                                                    placeholder="Email">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" value="" class="form-control" name="password"
+                                                    placeholder="Password">
+                                            </div>
+                                
+                                            <div class="d-flex">
+                                                <a class="btn btn-primary fs-17 w-40 p-1 m-auto text-white">Login</a><br><br>
+                                                <a href="sign-up-step-1.html" class="btn btn-success fs-17 w-40 m-auto">Sign up</a>
+                                            </div>
+                                
+                                        </div>
+                                    </form>
+                                </div>
+                                
+                                <div class="d-flex flex-column mt-auto">
+                                    <label for="" class="mx-4 mb-0"><small>Powered by Sport Social</small></label>
+                                    <img
+                                    src="images/ss-logo.svg" class="com-logo">
+                                </div>
+                            </div>
+                        </div>                     
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+                    </div>
+
+                </div><!-- /intro -->
+            </div><!-- /content -->
+        </div><!-- /container -->
+    </div> <!-- /wrapper -->
+
+    <!-- Country flags plugin js  -->
+    <script src="flags/build/js/intlTelInput.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            utilsScript: "flags/build/js/utils.js",
+        });
+    </script>
+    <script src="js/classie.js"></script>
+    <script src="js/gnmenu.js"></script>
+    <script>
+        new gnMenu(document.getElementById('gn-menu'));
+    </script>
+
+    <script src="js/general-friend-request.js"></script>
+    <script src="js/sports-social/statistics.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
